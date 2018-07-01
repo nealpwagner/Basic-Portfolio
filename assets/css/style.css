@@ -45,9 +45,10 @@ h1{
 .main-content-container{
     background-color: #fff;
     border-color: #eee;
-    margin: 40px 0px 0px 150px;
+    margin: 40px 0px 100px 150px;
     padding: 30px 15px 15px 15px;
     width: 960px;
+    
 }
 .main-content-header{
     color:#4aaaa5;
@@ -89,6 +90,7 @@ footer{
     bottom: 0;
     width: 100%;
     height: 75px;
+    
 }
 #copyright{
     position: absolute;
@@ -100,4 +102,31 @@ footer{
 header a{
     text-decoration: none;
     color: #aaa;
+}
+
+.overlay-image-container{
+    position: relative;
+    
+
+}
+
+.overlay-image{
+    width: 100%;
+}
+
+.overlay-image-caption{
+    position: absolute; 
+    bottom: 15px; 
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    background: #4aaaa5;
+    color: #fff;
+    padding: 20px;
+}
+.overlay-image-grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 265px);
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
 }
